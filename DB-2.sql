@@ -18,7 +18,7 @@ CREATE TABLE City
 (
   cId NUMBER(3),
   cName VARCHAR(15),
-  size INT,
+  citySize INT,
   aId NUMBER(3),
   PRIMARY KEY (cId),
   FOREIGN KEY (aId) REFERENCES Area(aId)
